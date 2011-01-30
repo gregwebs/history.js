@@ -23,7 +23,6 @@ task :compile do
   ]
 
   compiler_flags = [
-    "--compilation_level=ADVANCED_OPTIMIZATIONS",
     "--warning_level=VERBOSE",
     "--summary_detail_level=3",
     "--js_output_file=#{File.join(BUILD_DIR, 'history-min.js')}",
